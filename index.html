@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Garuda Project Command Center</title>
+  <meta name="description" content="Garuda Aerospace – Project Command Center. Projects. Procurement. Profitability. One Platform.">
+  <meta name="theme-color" content="#101D35">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script>
+    // Apply saved theme before first paint (UI preference only — not data).
+    try { const t = localStorage.getItem('garuda-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+  <!-- UI libraries (charts & icons). PDF/Excel libraries load on demand in Reports. -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script defer src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+  <div id="root">
+    <div class="boot-screen"><div class="inner">
+      <img class="brand-mark" src="assets/logo.svg" alt="">
+      <p style="margin-top:14px;letter-spacing:.14em;font-size:12px;color:#8ea0c2">LOADING COMMAND CENTER…</p>
+    </div></div>
+  </div>
+  <div id="toasts" aria-live="polite"></div>
+  <noscript><p style="padding:20px">Please enable JavaScript to use the Garuda Project Command Center.</p></noscript>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

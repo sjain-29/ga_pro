@@ -1,0 +1,11 @@
+{
+  "name": "garuda-project-command-center",
+  "private": true,
+  "type": "module",
+  "description": "Garuda Aerospace – Project Command Center (static app for GitHub Pages + Firebase)",
+  "scripts": {
+    "test": "node --test tests/",
+    "build:rules": "node firebase/build-rules.mjs",
+    "serve": "python3 -m http.server 8080"
+  }
+}
