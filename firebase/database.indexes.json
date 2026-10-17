@@ -1,0 +1,26 @@
+{
+  "_comment": "Realtime Database indexes are declared inside database.rules.json (.indexOn). This file lists them for reference; build-rules.mjs is the source of truth.",
+  "indexes": {
+    "users": [
+      "username",
+      "email",
+      "status"
+    ],
+    "activityLogs": [
+      "ts",
+      "projectId",
+      "uid",
+      "action"
+    ],
+    "auditTrail": [
+      "ts",
+      "projectId"
+    ],
+    "projects": [
+      "department",
+      "status",
+      "endDate",
+      "updatedAt"
+    ]
+  }
+}

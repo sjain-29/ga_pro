@@ -1,0 +1,1729 @@
+{
+ "settings": {
+  "attentionDays": 30,
+  "criticalDays": 15,
+  "tolerancePaise": 100,
+  "companyName": "Garuda Aerospace Limited"
+ },
+ "departments": {
+  "Agri": {
+   "name": "Agri",
+   "active": true,
+   "order": 0
+  },
+  "COE": {
+   "name": "COE",
+   "active": true,
+   "order": 1
+  },
+  "Defense": {
+   "name": "Defense",
+   "active": true,
+   "order": 2
+  },
+  "Global": {
+   "name": "Global",
+   "active": true,
+   "order": 3
+  },
+  "Industry": {
+   "name": "Industry",
+   "active": true,
+   "order": 4
+  },
+  "Redington": {
+   "name": "Redington",
+   "active": true,
+   "order": 5
+  },
+  "RPTO": {
+   "name": "RPTO",
+   "active": true,
+   "order": 6
+  },
+  "Tender": {
+   "name": "Tender",
+   "active": true,
+   "order": 7
+  },
+  "VV_Yatra": {
+   "name": "VV Yatra",
+   "active": true,
+   "order": 8
+  }
+ },
+ "projects": {
+  "GAL-AGRI-2601": {
+   "projectId": "GAL-AGRI-2601",
+   "description": "Agricultural spraying drones – 25 units with 2 years AMC",
+   "clientName": "Tamil Nadu Agri Dept.",
+   "department": "Agri",
+   "status": "In Progress",
+   "poDate": "2026-06-18",
+   "endDate": "2026-12-20",
+   "remarks": "Priority account – weekly review with management.",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1781783057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792147457885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-AGRI-2602": {
+   "projectId": "GAL-AGRI-2602",
+   "description": "Kisan drone pilot training batch – 40 farmers",
+   "clientName": "NABARD Rural Programme",
+   "department": "Agri",
+   "status": "In Progress",
+   "poDate": "2026-08-17",
+   "endDate": "2026-10-28",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1786967057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792143857885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-DEF-2601": {
+   "projectId": "GAL-DEF-2601",
+   "description": "Surveillance UAV supply with ground control station",
+   "clientName": "Defence Research Unit",
+   "department": "Defense",
+   "status": "In Progress",
+   "poDate": "2026-03-30",
+   "endDate": "2026-10-10",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1774871057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792140257885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-DEF-2602": {
+   "projectId": "GAL-DEF-2602",
+   "description": "Tethered drone system – border outpost pilot",
+   "clientName": "Border Security Command",
+   "department": "Defense",
+   "status": "In Progress",
+   "poDate": "2026-09-16",
+   "endDate": "2026-10-16",
+   "remarks": "Priority account – weekly review with management.",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1789559057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792136657885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-TND-2601": {
+   "projectId": "GAL-TND-2601",
+   "description": "GeM tender – mapping drones for municipal survey",
+   "clientName": "Greater Chennai Corporation",
+   "department": "Tender",
+   "status": "Completed",
+   "poDate": "2026-05-19",
+   "endDate": "2026-09-06",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1779191057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792133057885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-IND-2601": {
+   "projectId": "GAL-IND-2601",
+   "description": "Solar panel inspection drone service – 6 months",
+   "clientName": "Adani Green (Kamuthi plant)",
+   "department": "Industry",
+   "status": "In Progress",
+   "poDate": "2026-07-18",
+   "endDate": "2026-11-10",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1784375057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792129457885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-COE-2601": {
+   "projectId": "GAL-COE-2601",
+   "description": "Drone Centre of Excellence lab setup",
+   "clientName": "Anna University",
+   "department": "COE",
+   "status": "In Progress",
+   "poDate": "2026-08-02",
+   "endDate": "2027-03-05",
+   "remarks": "Priority account – weekly review with management.",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1785671057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792125857885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-GLB-2601": {
+   "projectId": "GAL-GLB-2601",
+   "description": "Export order – crop protection drones (Malaysia)",
+   "clientName": "AgroTech Sdn Bhd",
+   "department": "Global",
+   "status": "Not Started",
+   "poDate": "2026-09-06",
+   "endDate": "2027-01-19",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1788695057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792122257885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-RED-2601": {
+   "projectId": "GAL-RED-2601",
+   "description": "Redington channel – retail drone kits (batch 3)",
+   "clientName": "Redington Ltd",
+   "department": "Redington",
+   "status": "In Progress",
+   "poDate": "2026-09-26",
+   "endDate": "2026-11-20",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1790423057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792118657885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-RPTO-2601": {
+   "projectId": "GAL-RPTO-2601",
+   "description": "DGCA RPTO pilot certification – 3 cohorts",
+   "clientName": "Skill India Mission",
+   "department": "RPTO",
+   "status": "On Hold",
+   "poDate": "2026-06-28",
+   "endDate": "2026-10-24",
+   "remarks": "Priority account – weekly review with management.",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1782647057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792115057885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-VVY-2601": {
+   "projectId": "GAL-VVY-2601",
+   "description": "Viksit Bharat Sankalp Yatra – drone demonstrations",
+   "clientName": "Ministry of Agriculture",
+   "department": "VV Yatra",
+   "status": "Completed",
+   "poDate": "2026-04-19",
+   "endDate": "2026-07-13",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1776599057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792111457885,
+   "updatedBy": "u_admin"
+  },
+  "GAL-IND-2602": {
+   "projectId": "GAL-IND-2602",
+   "description": "Warehouse inventory drone pilot project",
+   "clientName": "Logistics Park Sriperumbudur",
+   "department": "Industry",
+   "status": "Cancelled",
+   "poDate": "2026-10-06",
+   "endDate": "2026-12-05",
+   "remarks": "",
+   "archived": false,
+   "deleted": false,
+   "createdAt": 1791287057885,
+   "createdBy": "u_admin",
+   "updatedAt": 1792107857885,
+   "updatedBy": "u_admin"
+  }
+ },
+ "projectIndex": {
+  "GAL-AGRI-2601": true,
+  "GAL-AGRI-2602": true,
+  "GAL-DEF-2601": true,
+  "GAL-DEF-2602": true,
+  "GAL-TND-2601": true,
+  "GAL-IND-2601": true,
+  "GAL-COE-2601": true,
+  "GAL-GLB-2601": true,
+  "GAL-RED-2601": true,
+  "GAL-RPTO-2601": true,
+  "GAL-VVY-2601": true,
+  "GAL-IND-2602": true
+ },
+ "clientContacts": {
+  "GAL-AGRI-2601": {
+   "contactPerson": "R. Balaji",
+   "email": "procurement1@client.example",
+   "phone": "+91 98400 10000"
+  },
+  "GAL-AGRI-2602": {
+   "contactPerson": "S. Lakshmi",
+   "email": "procurement2@client.example",
+   "phone": "+91 98400 10731"
+  },
+  "GAL-DEF-2601": {
+   "contactPerson": "Col. A. Verma",
+   "email": "procurement3@client.example",
+   "phone": "+91 98400 11462"
+  },
+  "GAL-DEF-2602": {
+   "contactPerson": "M. Prakash",
+   "email": "procurement4@client.example",
+   "phone": "+91 98400 12193"
+  },
+  "GAL-TND-2601": {
+   "contactPerson": "R. Balaji",
+   "email": "procurement5@client.example",
+   "phone": "+91 98400 12924"
+  },
+  "GAL-IND-2601": {
+   "contactPerson": "S. Lakshmi",
+   "email": "procurement6@client.example",
+   "phone": "+91 98400 13655"
+  },
+  "GAL-COE-2601": {
+   "contactPerson": "Col. A. Verma",
+   "email": "procurement7@client.example",
+   "phone": "+91 98400 14386"
+  },
+  "GAL-GLB-2601": {
+   "contactPerson": "M. Prakash",
+   "email": "procurement8@client.example",
+   "phone": "+91 98400 15117"
+  },
+  "GAL-RED-2601": {
+   "contactPerson": "R. Balaji",
+   "email": "procurement9@client.example",
+   "phone": "+91 98400 15848"
+  },
+  "GAL-RPTO-2601": {
+   "contactPerson": "S. Lakshmi",
+   "email": "procurement10@client.example",
+   "phone": "+91 98400 16579"
+  },
+  "GAL-VVY-2601": {
+   "contactPerson": "Col. A. Verma",
+   "email": "procurement11@client.example",
+   "phone": "+91 98400 17310"
+  },
+  "GAL-IND-2602": {
+   "contactPerson": "M. Prakash",
+   "email": "procurement12@client.example",
+   "phone": "+91 98400 18041"
+  }
+ },
+ "poValues": {
+  "GAL-AGRI-2601": {
+   "poValue": 100000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1781783057885
+  },
+  "GAL-AGRI-2602": {
+   "poValue": 45000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1786967057885
+  },
+  "GAL-DEF-2601": {
+   "poValue": 850000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1774871057885
+  },
+  "GAL-DEF-2602": {
+   "poValue": 320000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1789559057885
+  },
+  "GAL-TND-2601": {
+   "poValue": 240000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "2026-10-06",
+   "updatedAt": 1779191057885
+  },
+  "GAL-IND-2601": {
+   "poValue": 180000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1784375057885
+  },
+  "GAL-COE-2601": {
+   "poValue": 560000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1785671057885
+  },
+  "GAL-GLB-2601": {
+   "poValue": 720000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1788695057885
+  },
+  "GAL-RED-2601": {
+   "poValue": 260000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1790423057885
+  },
+  "GAL-RPTO-2601": {
+   "poValue": 90000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1782647057885
+  },
+  "GAL-VVY-2601": {
+   "poValue": 150000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "2026-08-12",
+   "updatedAt": 1776599057885
+  },
+  "GAL-IND-2602": {
+   "poValue": 65000000,
+   "gstMode": "inclusive",
+   "gstPercentBp": 1800,
+   "tdsTreatment": "credit",
+   "clientDueDate": "",
+   "updatedAt": 1791287057885
+  }
+ },
+ "quotations": {
+  "GAL-AGRI-2601": {
+   "q1": {
+    "amount": 50000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 47500000,
+    "vendor": "SkyMotors India",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 49000000,
+    "vendor": "Precision Airframes",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 47500000
+  },
+  "GAL-AGRI-2602": {
+   "q1": {
+    "amount": 18000000,
+    "vendor": "SkyMotors India",
+    "ref": "QT-2602-A"
+   },
+   "q2": {
+    "amount": 0,
+    "vendor": "",
+    "ref": ""
+   },
+   "q3": {
+    "amount": 19500000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2602-C"
+   },
+   "approvedValue": 18000000
+  },
+  "GAL-DEF-2601": {
+   "q1": {
+    "amount": 520000000,
+    "vendor": "Precision Airframes",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 545000000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 510000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 520000000
+  },
+  "GAL-DEF-2602": {
+   "q1": {
+    "amount": 210000000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2602-A"
+   },
+   "q2": {
+    "amount": 205000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2602-B"
+   },
+   "q3": {
+    "amount": 0,
+    "vendor": "",
+    "ref": ""
+   },
+   "approvedValue": 205000000
+  },
+  "GAL-TND-2601": {
+   "q1": {
+    "amount": 150000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 142000000,
+    "vendor": "SkyMotors India",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 148000000,
+    "vendor": "Precision Airframes",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 142000000
+  },
+  "GAL-IND-2601": {
+   "q1": {
+    "amount": 60000000,
+    "vendor": "SkyMotors India",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 64000000,
+    "vendor": "Precision Airframes",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 61500000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 60000000
+  },
+  "GAL-COE-2601": {
+   "q1": {
+    "amount": 310000000,
+    "vendor": "Precision Airframes",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 335000000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 320000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 310000000
+  },
+  "GAL-GLB-2601": {
+   "q1": {
+    "amount": 430000000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 418000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 440000000,
+    "vendor": "SkyMotors India",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 418000000
+  },
+  "GAL-RED-2601": {
+   "q1": {
+    "amount": 190000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 195000000,
+    "vendor": "SkyMotors India",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 188000000,
+    "vendor": "Precision Airframes",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 188000000
+  },
+  "GAL-RPTO-2601": {
+   "q1": {
+    "amount": 0,
+    "vendor": "",
+    "ref": ""
+   },
+   "q2": {
+    "amount": 0,
+    "vendor": "",
+    "ref": ""
+   },
+   "q3": {
+    "amount": 0,
+    "vendor": "",
+    "ref": ""
+   }
+  },
+  "GAL-VVY-2601": {
+   "q1": {
+    "amount": 70000000,
+    "vendor": "Precision Airframes",
+    "ref": "QT-2601-A"
+   },
+   "q2": {
+    "amount": 72000000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2601-B"
+   },
+   "q3": {
+    "amount": 69000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2601-C"
+   },
+   "approvedValue": 69000000
+  },
+  "GAL-IND-2602": {
+   "q1": {
+    "amount": 40000000,
+    "vendor": "BlueSky Avionics",
+    "ref": "QT-2602-A"
+   },
+   "q2": {
+    "amount": 38000000,
+    "vendor": "Aerovista Components",
+    "ref": "QT-2602-B"
+   },
+   "q3": {
+    "amount": 0,
+    "vendor": "",
+    "ref": ""
+   }
+  }
+ },
+ "vendorPayments": {
+  "GAL-AGRI-2601": {
+   "approvedPayable": 60000000,
+   "completedFlag": false,
+   "txns": {
+    "-demo0001": {
+     "kind": "payment",
+     "vendor": "SkyMotors India",
+     "amount": 35000000,
+     "date": "2026-07-08",
+     "ref": "UTR884210",
+     "remarks": "Advance",
+     "createdAt": 1781783057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-AGRI-2602": {
+   "approvedPayable": 17200000,
+   "completedFlag": true,
+   "txns": {
+    "-demo0011": {
+     "kind": "payment",
+     "vendor": "Precision Airframes",
+     "amount": 17200000,
+     "date": "2026-09-06",
+     "ref": "UTR884307",
+     "remarks": "Advance",
+     "createdAt": 1786967057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-DEF-2601": {
+   "approvedPayable": 520000000,
+   "completedFlag": false,
+   "txns": {
+    "-demo0020": {
+     "kind": "payment",
+     "vendor": "BlueSky Avionics",
+     "amount": 260000000,
+     "date": "2026-04-19",
+     "ref": "UTR884404",
+     "remarks": "Advance",
+     "createdAt": 1774871057885,
+     "createdBy": "u_finance"
+    },
+    "-demo0021": {
+     "kind": "payment",
+     "vendor": "BlueSky Avionics",
+     "amount": 150000000,
+     "date": "2026-05-04",
+     "ref": "UTR884405",
+     "remarks": "Balance payment",
+     "createdAt": 1774871057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-DEF-2602": {
+   "approvedPayable": 199000000,
+   "completedFlag": false,
+   "txns": {}
+  },
+  "GAL-TND-2601": {
+   "approvedPayable": 142000000,
+   "completedFlag": true,
+   "txns": {
+    "-demo0039": {
+     "kind": "payment",
+     "vendor": "SkyMotors India",
+     "amount": 142000000,
+     "date": "2026-06-08",
+     "ref": "UTR884598",
+     "remarks": "Advance",
+     "createdAt": 1779191057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-IND-2601": {
+   "approvedPayable": 60000000,
+   "completedFlag": false,
+   "txns": {
+    "-demo0049": {
+     "kind": "payment",
+     "vendor": "Precision Airframes",
+     "amount": 30000000,
+     "date": "2026-08-07",
+     "ref": "UTR884695",
+     "remarks": "Advance",
+     "createdAt": 1784375057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-COE-2601": {
+   "completedFlag": false,
+   "txns": {}
+  },
+  "GAL-GLB-2601": {
+   "approvedPayable": 418000000,
+   "completedFlag": false,
+   "txns": {
+    "-demo0060": {
+     "kind": "payment",
+     "vendor": "Aerovista Components",
+     "amount": 100000000,
+     "date": "2026-09-26",
+     "ref": "UTR884889",
+     "remarks": "Advance",
+     "createdAt": 1788695057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-RED-2601": {
+   "approvedPayable": 188000000,
+   "completedFlag": false,
+   "txns": {
+    "-demo0063": {
+     "kind": "payment",
+     "vendor": "SkyMotors India",
+     "amount": 90000000,
+     "date": "2026-10-16",
+     "ref": "UTR884986",
+     "remarks": "Advance",
+     "createdAt": 1790423057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-RPTO-2601": {
+   "completedFlag": false,
+   "txns": {}
+  },
+  "GAL-VVY-2601": {
+   "approvedPayable": 69000000,
+   "completedFlag": true,
+   "txns": {
+    "-demo0075": {
+     "kind": "payment",
+     "vendor": "BlueSky Avionics",
+     "amount": 69000000,
+     "date": "2026-05-09",
+     "ref": "UTR885180",
+     "remarks": "Advance",
+     "createdAt": 1776599057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-IND-2602": {
+   "completedFlag": false,
+   "txns": {}
+  }
+ },
+ "expPurchase": {
+  "GAL-AGRI-2601": {
+   "txns": {
+    "-demo0002": {
+     "kind": "expense",
+     "amount": 60000000,
+     "date": "2026-07-03",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2601-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-AGRI-2602": {
+   "txns": {
+    "-demo0012": {
+     "kind": "expense",
+     "amount": 17200000,
+     "date": "2026-09-01",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2602-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2601": {
+   "txns": {
+    "-demo0022": {
+     "kind": "expense",
+     "amount": 530000000,
+     "date": "2026-04-14",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2601-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2602": {
+   "txns": {
+    "-demo0032": {
+     "kind": "expense",
+     "amount": 199000000,
+     "date": "2026-10-01",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2602-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-TND-2601": {
+   "txns": {
+    "-demo0040": {
+     "kind": "expense",
+     "amount": 143000000,
+     "date": "2026-06-03",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2601-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2601": {
+   "txns": {
+    "-demo0050": {
+     "kind": "expense",
+     "amount": 61000000,
+     "date": "2026-08-02",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2601-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-COE-2601": {
+   "txns": {}
+  },
+  "GAL-GLB-2601": {
+   "txns": {}
+  },
+  "GAL-RED-2601": {
+   "txns": {
+    "-demo0064": {
+     "kind": "expense",
+     "amount": 188000000,
+     "date": "2026-10-11",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2601-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-RPTO-2601": {
+   "txns": {}
+  },
+  "GAL-VVY-2601": {
+   "txns": {
+    "-demo0076": {
+     "kind": "expense",
+     "amount": 115000000,
+     "date": "2026-05-04",
+     "desc": "Purchase of drones / components",
+     "ref": "INV-2601-15",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2602": {
+   "txns": {}
+  }
+ },
+ "expTransport": {
+  "GAL-AGRI-2601": {
+   "txns": {
+    "-demo0003": {
+     "kind": "expense",
+     "amount": 1800000,
+     "date": "2026-07-13",
+     "desc": "Freight to site",
+     "ref": "INV-2601-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    },
+    "-demo0004": {
+     "kind": "expense",
+     "amount": 1200000,
+     "date": "2026-07-28",
+     "desc": "Local transport",
+     "ref": "INV-2601-40",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-AGRI-2602": {
+   "txns": {
+    "-demo0013": {
+     "kind": "expense",
+     "amount": 1800000,
+     "date": "2026-09-11",
+     "desc": "Transport",
+     "ref": "INV-2602-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2601": {
+   "txns": {
+    "-demo0023": {
+     "kind": "expense",
+     "amount": 7200000,
+     "date": "2026-04-24",
+     "desc": "Freight to site",
+     "ref": "INV-2601-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    },
+    "-demo0024": {
+     "kind": "expense",
+     "amount": 4800000,
+     "date": "2026-05-09",
+     "desc": "Local transport",
+     "ref": "INV-2601-40",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2602": {
+   "txns": {
+    "-demo0033": {
+     "kind": "expense",
+     "amount": 2700000,
+     "date": "2026-10-11",
+     "desc": "Freight to site",
+     "ref": "INV-2602-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    },
+    "-demo0034": {
+     "kind": "expense",
+     "amount": 1800000,
+     "date": "2026-10-26",
+     "desc": "Local transport",
+     "ref": "INV-2602-40",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-TND-2601": {
+   "txns": {
+    "-demo0041": {
+     "kind": "expense",
+     "amount": 2100000,
+     "date": "2026-06-13",
+     "desc": "Freight to site",
+     "ref": "INV-2601-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    },
+    "-demo0042": {
+     "kind": "expense",
+     "amount": 1400000,
+     "date": "2026-06-28",
+     "desc": "Local transport",
+     "ref": "INV-2601-40",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2601": {
+   "txns": {
+    "-demo0051": {
+     "kind": "expense",
+     "amount": 3300000,
+     "date": "2026-08-12",
+     "desc": "Freight to site",
+     "ref": "INV-2601-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    },
+    "-demo0052": {
+     "kind": "expense",
+     "amount": 2200000,
+     "date": "2026-08-27",
+     "desc": "Local transport",
+     "ref": "INV-2601-40",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-COE-2601": {
+   "txns": {}
+  },
+  "GAL-GLB-2601": {
+   "txns": {}
+  },
+  "GAL-RED-2601": {
+   "txns": {
+    "-demo0065": {
+     "kind": "expense",
+     "amount": 2400000,
+     "date": "2026-10-21",
+     "desc": "Freight to site",
+     "ref": "INV-2601-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    },
+    "-demo0066": {
+     "kind": "expense",
+     "amount": 1600000,
+     "date": "2026-11-05",
+     "desc": "Local transport",
+     "ref": "INV-2601-40",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-RPTO-2601": {
+   "txns": {
+    "-demo0069": {
+     "kind": "expense",
+     "amount": 1500000,
+     "date": "2026-07-23",
+     "desc": "Transport",
+     "ref": "INV-2601-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-VVY-2601": {
+   "txns": {
+    "-demo0077": {
+     "kind": "expense",
+     "amount": 10800000,
+     "date": "2026-05-14",
+     "desc": "Freight to site",
+     "ref": "INV-2601-25",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    },
+    "-demo0078": {
+     "kind": "expense",
+     "amount": 7200000,
+     "date": "2026-05-29",
+     "desc": "Local transport",
+     "ref": "INV-2601-40",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2602": {
+   "txns": {}
+  }
+ },
+ "expPilot": {
+  "GAL-AGRI-2601": {
+   "txns": {
+    "-demo0005": {
+     "kind": "expense",
+     "amount": 2000000,
+     "date": "2026-07-23",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2601-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-AGRI-2602": {
+   "txns": {
+    "-demo0014": {
+     "kind": "expense",
+     "amount": 6500000,
+     "date": "2026-09-21",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2602-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2601": {
+   "txns": {
+    "-demo0025": {
+     "kind": "expense",
+     "amount": 9000000,
+     "date": "2026-05-04",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2601-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2602": {
+   "txns": {
+    "-demo0035": {
+     "kind": "expense",
+     "amount": 3000000,
+     "date": "2026-10-21",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2602-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-TND-2601": {
+   "txns": {
+    "-demo0043": {
+     "kind": "expense",
+     "amount": 6000000,
+     "date": "2026-06-23",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2601-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2601": {
+   "txns": {
+    "-demo0053": {
+     "kind": "expense",
+     "amount": 24000000,
+     "date": "2026-08-22",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2601-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-COE-2601": {
+   "txns": {}
+  },
+  "GAL-GLB-2601": {
+   "txns": {}
+  },
+  "GAL-RED-2601": {
+   "txns": {}
+  },
+  "GAL-RPTO-2601": {
+   "txns": {
+    "-demo0070": {
+     "kind": "expense",
+     "amount": 32000000,
+     "date": "2026-08-02",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2601-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-VVY-2601": {
+   "txns": {
+    "-demo0079": {
+     "kind": "expense",
+     "amount": 16000000,
+     "date": "2026-05-24",
+     "desc": "Pilot charges & allowances",
+     "ref": "INV-2601-35",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2602": {
+   "txns": {}
+  }
+ },
+ "expOther": {
+  "GAL-AGRI-2601": {
+   "txns": {
+    "-demo0006": {
+     "kind": "expense",
+     "amount": 1000000,
+     "date": "2026-07-18",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2601-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-AGRI-2602": {
+   "txns": {
+    "-demo0015": {
+     "kind": "expense",
+     "amount": 800000,
+     "date": "2026-09-16",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2602-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2601": {
+   "txns": {
+    "-demo0026": {
+     "kind": "expense",
+     "amount": 15000000,
+     "date": "2026-04-29",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2601-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-DEF-2602": {
+   "txns": {
+    "-demo0036": {
+     "kind": "expense",
+     "amount": 2500000,
+     "date": "2026-10-16",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2602-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-TND-2601": {
+   "txns": {
+    "-demo0044": {
+     "kind": "expense",
+     "amount": 1500000,
+     "date": "2026-06-18",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2601-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2601": {
+   "txns": {
+    "-demo0054": {
+     "kind": "expense",
+     "amount": 3000000,
+     "date": "2026-08-17",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2601-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-COE-2601": {
+   "txns": {}
+  },
+  "GAL-GLB-2601": {
+   "txns": {}
+  },
+  "GAL-RED-2601": {
+   "txns": {
+    "-demo0067": {
+     "kind": "expense",
+     "amount": 1200000,
+     "date": "2026-10-26",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2601-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-RPTO-2601": {
+   "txns": {
+    "-demo0071": {
+     "kind": "expense",
+     "amount": 6000000,
+     "date": "2026-07-28",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2601-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-VVY-2601": {
+   "txns": {
+    "-demo0080": {
+     "kind": "expense",
+     "amount": 7000000,
+     "date": "2026-05-19",
+     "desc": "Insurance, permits & misc.",
+     "ref": "INV-2601-30",
+     "createdAt": 1791719057885,
+     "createdBy": "u_admin"
+    }
+   }
+  },
+  "GAL-IND-2602": {
+   "txns": {}
+  }
+ },
+ "clientPayments": {
+  "GAL-AGRI-2601": {
+   "receipts": {
+    "-demo0008": {
+     "kind": "receipt",
+     "amount": 40000000,
+     "date": "2026-08-02",
+     "ref": "NEFT551200",
+     "remarks": "Received",
+     "createdAt": 1781783057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {
+    "-demo0007": {
+     "type": "TDS",
+     "amount": 1000000,
+     "date": "2026-08-17",
+     "ref": "TDS u/s 194Q",
+     "createdAt": 1781783057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-AGRI-2602": {
+   "receipts": {
+    "-demo0017": {
+     "kind": "receipt",
+     "amount": 20000000,
+     "date": "2026-10-01",
+     "ref": "NEFT551213",
+     "remarks": "Received",
+     "createdAt": 1786967057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {
+    "-demo0016": {
+     "type": "TDS",
+     "amount": 450000,
+     "date": "2026-10-16",
+     "ref": "TDS u/s 194Q",
+     "createdAt": 1786967057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-DEF-2601": {
+   "receipts": {
+    "-demo0029": {
+     "kind": "receipt",
+     "amount": 425000000,
+     "date": "2026-05-14",
+     "ref": "NEFT551226",
+     "remarks": "Received",
+     "createdAt": 1774871057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {
+    "-demo0027": {
+     "type": "LD",
+     "amount": 42500000,
+     "date": "2026-05-29",
+     "ref": "LD as per PO clause 14",
+     "createdAt": 1774871057885,
+     "createdBy": "u_finance"
+    },
+    "-demo0028": {
+     "type": "TDS",
+     "amount": 8500000,
+     "date": "2026-05-29",
+     "ref": "TDS u/s 194Q",
+     "createdAt": 1774871057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-DEF-2602": {
+   "receipts": {},
+   "deductions": {}
+  },
+  "GAL-TND-2601": {
+   "receipts": {
+    "-demo0047": {
+     "kind": "receipt",
+     "amount": 230400000,
+     "date": "2026-07-03",
+     "ref": "NEFT551252",
+     "remarks": "Received",
+     "createdAt": 1779191057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {
+    "-demo0045": {
+     "type": "LD",
+     "amount": 7200000,
+     "date": "2026-07-18",
+     "ref": "LD as per PO clause 14",
+     "createdAt": 1779191057885,
+     "createdBy": "u_finance"
+    },
+    "-demo0046": {
+     "type": "TDS",
+     "amount": 2400000,
+     "date": "2026-07-18",
+     "ref": "TDS u/s 194Q",
+     "createdAt": 1779191057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-IND-2601": {
+   "receipts": {
+    "-demo0056": {
+     "kind": "receipt",
+     "amount": 90000000,
+     "date": "2026-09-01",
+     "ref": "NEFT551265",
+     "remarks": "Received",
+     "createdAt": 1784375057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {
+    "-demo0055": {
+     "type": "TDS",
+     "amount": 1800000,
+     "date": "2026-09-16",
+     "ref": "TDS u/s 194Q",
+     "createdAt": 1784375057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-COE-2601": {
+   "receipts": {
+    "-demo0058": {
+     "kind": "receipt",
+     "amount": 112000000,
+     "date": "2026-09-16",
+     "ref": "NEFT551278",
+     "remarks": "Received",
+     "createdAt": 1785671057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {}
+  },
+  "GAL-GLB-2601": {
+   "receipts": {
+    "-demo0061": {
+     "kind": "receipt",
+     "amount": 216000000,
+     "date": "2026-10-21",
+     "ref": "NEFT551291",
+     "remarks": "Received",
+     "createdAt": 1788695057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {}
+  },
+  "GAL-RED-2601": {
+   "receipts": {},
+   "deductions": {}
+  },
+  "GAL-RPTO-2601": {
+   "receipts": {
+    "-demo0073": {
+     "kind": "receipt",
+     "amount": 45000000,
+     "date": "2026-08-12",
+     "ref": "NEFT551317",
+     "remarks": "Received",
+     "createdAt": 1782647057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {
+    "-demo0072": {
+     "type": "TDS",
+     "amount": 900000,
+     "date": "2026-08-27",
+     "ref": "TDS u/s 194Q",
+     "createdAt": 1782647057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-VVY-2601": {
+   "receipts": {
+    "-demo0083": {
+     "kind": "receipt",
+     "amount": 142500000,
+     "date": "2026-06-03",
+     "ref": "NEFT551330",
+     "remarks": "Received",
+     "createdAt": 1776599057885,
+     "createdBy": "u_finance"
+    }
+   },
+   "deductions": {
+    "-demo0081": {
+     "type": "LD",
+     "amount": 4500000,
+     "date": "2026-06-18",
+     "ref": "LD as per PO clause 14",
+     "createdAt": 1776599057885,
+     "createdBy": "u_finance"
+    },
+    "-demo0082": {
+     "type": "TDS",
+     "amount": 3000000,
+     "date": "2026-06-18",
+     "ref": "TDS u/s 194Q",
+     "createdAt": 1776599057885,
+     "createdBy": "u_finance"
+    }
+   }
+  },
+  "GAL-IND-2602": {
+   "receipts": {},
+   "deductions": {}
+  }
+ },
+ "comments": {
+  "GAL-AGRI-2601": {
+   "-demo0009": {
+    "uid": "u_admin",
+    "name": "Garuda Administrator",
+    "text": "Kick-off done. Please keep vendor docs attached here.",
+    "ts": 1791978257885
+   }
+  },
+  "GAL-AGRI-2602": {
+   "-demo0018": {
+    "uid": "u_admin",
+    "name": "Garuda Administrator",
+    "text": "Kick-off done. Please keep vendor docs attached here.",
+    "ts": 1791891857885
+   }
+  },
+  "GAL-DEF-2601": {
+   "-demo0030": {
+    "uid": "u_admin",
+    "name": "Garuda Administrator",
+    "text": "Kick-off done. Please keep vendor docs attached here.",
+    "ts": 1791805457885
+   }
+  },
+  "GAL-DEF-2602": {
+   "-demo0037": {
+    "uid": "u_admin",
+    "name": "Garuda Administrator",
+    "text": "Kick-off done. Please keep vendor docs attached here.",
+    "ts": 1791719057885
+   }
+  }
+ },
+ "activityLogs": {
+  "-demo0010": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-AGRI-2601",
+   "next": "Agricultural spraying drones – 25 units with 2 years AMC",
+   "ts": 1781783057885
+  },
+  "-demo0019": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-AGRI-2602",
+   "next": "Kisan drone pilot training batch – 40 farmers",
+   "ts": 1786967057885
+  },
+  "-demo0031": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-DEF-2601",
+   "next": "Surveillance UAV supply with ground control station",
+   "ts": 1774871057885
+  },
+  "-demo0038": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-DEF-2602",
+   "next": "Tethered drone system – border outpost pilot",
+   "ts": 1789559057885
+  },
+  "-demo0048": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-TND-2601",
+   "next": "GeM tender – mapping drones for municipal survey",
+   "ts": 1779191057885
+  },
+  "-demo0057": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-IND-2601",
+   "next": "Solar panel inspection drone service – 6 months",
+   "ts": 1784375057885
+  },
+  "-demo0059": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-COE-2601",
+   "next": "Drone Centre of Excellence lab setup",
+   "ts": 1785671057885
+  },
+  "-demo0062": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-GLB-2601",
+   "next": "Export order – crop protection drones (Malaysia)",
+   "ts": 1788695057885
+  },
+  "-demo0068": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-RED-2601",
+   "next": "Redington channel – retail drone kits (batch 3)",
+   "ts": 1790423057885
+  },
+  "-demo0074": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-RPTO-2601",
+   "next": "DGCA RPTO pilot certification – 3 cohorts",
+   "ts": 1782647057885
+  },
+  "-demo0084": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-VVY-2601",
+   "next": "Viksit Bharat Sankalp Yatra – drone demonstrations",
+   "ts": 1776599057885
+  },
+  "-demo0085": {
+   "uid": "u_admin",
+   "username": "garuda",
+   "action": "project.create",
+   "projectId": "GAL-IND-2602",
+   "next": "Warehouse inventory drone pilot project",
+   "ts": 1791287057885
+  },
+  "-demo0086": {
+   "uid": "u_finance",
+   "username": "priya.finance",
+   "action": "vendor.payment",
+   "projectId": "GAL-DEF-2601",
+   "next": "₹15,00,000.00",
+   "ts": 1792143857885
+  },
+  "-demo0087": {
+   "uid": "u_proc",
+   "username": "arjun.procurement",
+   "action": "quotation.update",
+   "projectId": "GAL-RED-2601",
+   "field": "L3",
+   "prev": "₹19,00,000.00",
+   "next": "₹18,80,000.00",
+   "ts": 1792147457885
+  }
+ },
+ "summaries": {}
+}

@@ -1,0 +1,22 @@
+rules_version = '2';
+// Attachments: projects/{projectId}/{file}
+// Access is driven by Auth custom claims that the `syncUserAccess` Cloud Function
+// mirrors from /users/{uid} (active, admin, fv = files view, fe = files edit,
+// pa = '*' or the list of assigned project IDs).
+// Without Cloud Functions deployed no claims exist, so nobody can read or write files — attachments
+// are an optional feature that requires the Functions (Blaze plan).
+service firebase.storage {
+  match /b/{bucket}/o {
+    function active() { return request.auth != null && request.auth.token.active == true; }
+    function projectOk(pid) { return request.auth.token.admin == true || request.auth.token.pa == '*' || pid in request.auth.token.pa; }
+
+    match /projects/{pid}/{file} {
+      allow read: if active() && (request.auth.token.admin == true || request.auth.token.fv == true) && projectOk(pid);
+      allow create: if active() && (request.auth.token.admin == true || request.auth.token.fe == true) && projectOk(pid)
+        && request.resource.size < 10 * 1024 * 1024
+        && request.resource.contentType.matches('application/pdf|image/.*|text/csv|text/plain|application/vnd.openxmlformats-officedocument.*|application/vnd.ms-excel|application/msword');
+      allow delete: if active() && request.auth.token.admin == true;
+    }
+    match /{all=**} { allow read, write: if false; }
+  }
+}

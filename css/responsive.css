@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Responsive layouts — laptop, tablet, mobile
+   ========================================================================== */
+@media (max-width: 1280px) {
+  .ws-grid > .mod { grid-column: span 6; }
+  .ws-grid > .mod.wide { grid-column: span 12; }
+  .ws-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .ws-stat:nth-child(3n) { border-right: 0; }
+  .ws-stat:nth-child(-n+3) { border-bottom: 1px solid var(--line-2); }
+  .hero { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 1080px) {
+  .charts-grid, .two-col, .settings-grid { grid-template-columns: minmax(0, 1fr); }
+  .login { grid-template-columns: 1fr; }
+  .login-art { display: none; }
+}
+
+@media (max-width: 960px) {
+  .app { grid-template-columns: 1fr; }
+  .sidebar { position: fixed; inset: 0 auto 0 0; width: min(300px, 86vw); transform: translateX(-102%); transition: transform .25s var(--ease); box-shadow: var(--shadow-3); }
+  body.nav-open .sidebar { transform: none; }
+  body.nav-open::after { content: ''; position: fixed; inset: 0; background: rgba(9, 15, 30, .45); z-index: 55; }
+  .menu-btn { display: inline-grid; }
+  .topbar { padding: 0 14px; }
+  .content { padding: 18px 16px; }
+  .ws-grid > .mod, .ws-grid > .mod.wide, .ws-grid > .mod.half { grid-column: span 12; }
+  .gsearch kbd { display: none; }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 14px; }
+  .content { padding: 14px 16px 90px; }
+  .page-head h1 { font-size: 20px; }
+  .page-head { margin-bottom: 14px; }
+  .page-actions { width: 100%; }
+  .page-actions .btn { flex: 1; }
+  .kpi-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .kpi { padding: 12px; flex-direction: column; gap: 8px; }
+  .kpi-ico { width: 34px; height: 34px; }
+  .kpi-value { font-size: 16.5px; }
+  .hero { padding: 18px; }
+  .hero-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hero-stat .v { font-size: 17px; }
+  .plist { grid-template-columns: 1fr; }
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .span-2 { grid-column: auto; }
+  .filters .input, .filters .seg { min-width: 0; flex: 1 1 calc(50% - 10px); }
+  .filters .search { flex-basis: 100%; }
+  .ws-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ws-stat { border-right: 0 !important; border-bottom: 1px solid var(--line-2); }
+  .ws-top { padding: 16px; }
+  .ws-title h1 { font-size: 17px; }
+  .breakdown { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .exp-cards, .profit-hero { grid-template-columns: 1fr 1fr; }
+  .chart-card .card-body { height: 250px; }
+  .btn { height: 44px; }
+  .btn-sm { height: 36px; }
+  .icon-btn { width: 42px; height: 42px; }
+  .input { height: 44px; font-size: 16px; } /* 16px avoids iOS zoom */
+  .modal { border-radius: 18px 18px 0 0; max-height: 92vh; }
+  .layer-modal { align-items: flex-end; padding: 0; }
+  .modal-sm, .modal-md, .modal-lg, .modal-xl { max-width: 100%; }
+  .drawer { max-width: 100% !important; }
+  .review-list { grid-template-columns: 1fr; gap: 2px; }
+  .review-list dd { margin-bottom: 8px; }
+  .conn span:not(.dot), .mode-pill { display: none; }
+  .stepper .step span.t { display: none; }
+  .tbl-cards thead { display: none; }
+  .tbl-cards tr { display: block; padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .tbl-cards td { display: flex; justify-content: space-between; gap: 12px; border: 0; padding: 4px 4px; text-align: right; }
+  .tbl-cards td::before { content: attr(data-l); font-weight: 600; color: var(--text-3); font-size: 12px; text-align: left; }
+  .tbl-cards td.num { text-align: right; }
+  .tbl-cards tfoot { display: block; } .tbl-cards tfoot tr { display: block; } .tbl-cards tfoot td:empty { display: none; }
+  .perm-matrix .ph { display: none; }
+  #toasts { left: 12px; right: 12px; bottom: 12px; max-width: none; }
+}
+
+@media (max-width: 640px) {
+  .hide-sm { display: none; }
+  #btn-add { width: 44px; padding: 0; flex: none; }
+  .topbar { gap: 6px; }
+  .top-actions { gap: 2px; }
+  .conn, #btn-privacy { display: none; }
+  .gsearch { min-width: 0; }
+  .gsearch input { padding-right: 8px; }
+  .card-head { flex-wrap: wrap; }
+  .filters > .seg:first-child, .card-head .seg { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; flex-basis: 100%; scrollbar-width: none; }
+  .seg button { flex: none; }
+  .list-item { flex-wrap: wrap; }
+  .li-main { flex-basis: 60%; }
+}
